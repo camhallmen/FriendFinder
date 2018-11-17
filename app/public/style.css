@@ -1,0 +1,32 @@
+h1 {
+    
+    color: teal;
+}
+
+.my-btn {
+    background-color: teal;
+}
+
+.jumbotron {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.my-links {
+    margin-left: 5%;
+}
+
+.my-container {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+}
+
+.my-questions {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
