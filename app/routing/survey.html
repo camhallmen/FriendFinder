@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Stylesheet link -->
+    <link rel="stylesheet" href="/style.css">
+    <title>Survey</title>
+</head>
+<body>
+
+    <div class="my-container">
+        <h2>Friend Survey</h2>
+        <hr>
+        <h3>About You</h3>
+        <h4>Name (required)</h4>
+        <input type="text" id="user-name" class="form-control" required="">
+        <br>
+        <h4>Link to picture (required)</h4>
+        <input type="text" id="user-pic" class="form-control" required="">
+        <hr>
+    </div>
+    
+    <div class="my-questions ">
+        <!-- Question 1 -->
+        <h3>Question 1</h3>
+        <h4>Blah blah blah</h4>
+        <select id="question1">
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+        <hr>
+        <!-- Question 2 -->
+        <h3>Question 2</h3>
+        <h4>Blah blah blah</h4>
+        <select id="question2">
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+        <hr>
+        <!-- Question 3 -->
+        <h3>Question 3</h3>
+        <h4>Blah blah blah</h4>
+        <select id=question3>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+        <hr>
+        <!-- Question 4 -->
+        <h3>Question 4</h3>
+        <h4>Blah blah blah</h4>
+        <select id="question4">
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+        <hr>
+        <!-- Question 5 -->
+        <h3>Question 5</h3>
+        <h4>Blah blah blah</h4>
+        <select id="question5">
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+        <hr>
+        <!-- Question 6 -->
+        <h3>Question 6</h3>
+        <h4>Blah blah blah</h4>
+        <select id="question6">
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+        <hr>
+        <!-- Question 7 -->
+        <h3>Question 7</h3>
+        <h4>Blah blah blah</h4>
+        <select id="question7">
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+        <hr>
+        <!-- Question 8 -->
+        <h3>Question 8</h3>
+        <h4>Blah blah blah</h4>
+        <select id="question8">
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+        <hr>
+        <!-- Question 9 -->
+        <h3>Question 9</h3>
+        <h4>Blah blah blah</h4>
+        <select id="question9">
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+        <hr>
+        <!-- Question 10 -->
+        <h3>Question 10</h3>
+        <h4>Blah blah blah</h4>
+        <select id="question10">
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+        <hr>
+    </div>
+
+    <button type="button" id="submit-button" class="btn btn-primary">Submit</button>
+
+    <!-- Bootstrap js links-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    
+
+   
+</body>
+</html>
+
+<!-- jQuery link -->
+<script
+src="https://code.jquery.com/jquery-3.3.1.min.js"
+integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+crossorigin="anonymous">
+</script>
+
+<script type="text/javascript">
+
+  $("#submit-button").on("click", function() {
+    event.preventDefault()
+
+    var newUser = {
+      name: $("#user-name").val().trim(),
+      pic: $("#user-pic").val().trim(),
+      scores: [
+        $("#question1").val(),
+        $("#question2").val(),
+        $("#question3").val(),
+        $("#question4").val(),
+        $("#question5").val(),
+        $("#question6").val(),
+        $("#question7").val(),
+        $("#question8").val(),
+        $("#question9").val(),
+        $("#question10").val(),
+      ]
+    }
+    console.log(newUser)
+    // newUser.push(userData)
+    alert("Your survey has been submitted!")
+    // function calculate(userData) {
+    //   for (var i = 0; i < userData.length; i++) newUser.push(userData[i].scores - newUser[i - 1].scores)
+    //   return userData[i].scores - newUser.scores
+    // }
+    // console.log(calculate(newUser))
+    $.post("/api/friends", newUser, function(data) {
+        $("#user-name").val("")
+        $("#user-pic").val("")
+        $("#question1").val("1"),
+        $("#question2").val("1"),
+        $("#question3").val("1"),
+        $("#question4").val("1"),
+        $("#question5").val("1"),
+        $("#question6").val("1"),
+        $("#question7").val("1"),
+        $("#question8").val("1"),
+        $("#question9").val("1"),
+        $("#question10").val("1")
+    })
+  })
+
+</script>
